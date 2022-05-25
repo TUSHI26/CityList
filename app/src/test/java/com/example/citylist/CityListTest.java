@@ -45,7 +45,7 @@ public class CityListTest {
         City city=new  City("montreal","canada");
         City city1=new  City("panjab","uttorprodesh");
         cityList.add(city);
-        //cityList.add(city1);
+        cityList.add(city1);
         cityList.delete(city);
 
         assertThrows(IllegalArgumentException.class, () -> {
